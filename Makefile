@@ -32,4 +32,4 @@ define Package/cpulimit/install
 	$(INSTALL_BIN) $(PKG_BUILD_DIR)/src/cpulimit $(1)/usr/bin/
 endef
 
-$(eval $(call BuildPackage,cpulimit))s
+$(eval $(call BuildPackage,cpulimit))
